@@ -1,0 +1,77 @@
+name: Bug report
+description: Something in CANHIVE does not work as it should.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem. Please check the [open issues](https://github.com/RahulP5/canhive-releases/issues) first; if yours is already there, add your details to it.
+        Do not post licence keys, passwords or confidential data such as your company's DBC files.
+  - type: input
+    id: version
+    attributes:
+      label: CANHIVE version
+      description: Shown in the app under Settings → About, or by `canhive-cli --version`.
+      placeholder: "0.3.0"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      description: Press Win+R, run `winver`.
+      placeholder: "Windows 11 24H2"
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Installer or update
+        - Hub service or virtual buses
+        - Real hardware (PEAK, Kvaser, Vector)
+        - Analyzer (trace, signals, plots, statistics)
+        - Send panel, cyclic messages or replay
+        - DBC or ASC files
+        - canhive-cli
+        - SDK, canhive.dll or python-can plugin
+        - BusMaster or another tool over SLCAN/socketcand
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: Include the exact error message, if there was one.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Create a CAN FD bus at 500 kbit/s / 2 Mbit/s
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: input
+    id: hardware
+    attributes:
+      label: CAN interface and driver version
+      description: Only for problems with real hardware.
+      placeholder: "PCAN-USB FD, PCAN-Basic 4.9.0"
+  - type: textarea
+    id: log
+    attributes:
+      label: Hub log
+      description: The last lines of `C:\ProgramData\CANHIVE\logs\hub.log`, if they relate to the problem.
+      render: text

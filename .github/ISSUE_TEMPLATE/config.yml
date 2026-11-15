@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Download CANHIVE
+    url: https://github.com/RahulP5/canhive-releases/releases/latest
+    about: The latest installer and its release notes.

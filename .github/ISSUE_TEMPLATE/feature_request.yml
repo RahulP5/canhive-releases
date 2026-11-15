@@ -1,0 +1,21 @@
+name: Feature request
+description: Suggest something CANHIVE should do.
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: What do you want to do?
+      description: Describe the task or problem, not only the solution. For example, "I test ECUs with a J1939 network and need ...".
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: How could CANHIVE help?
+  - type: textarea
+    id: today
+    attributes:
+      label: What do you use today?
+      description: Other tools or workarounds, if any.

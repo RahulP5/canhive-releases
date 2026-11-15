@@ -104,12 +104,15 @@ installed VirtualCAN (CANHIVE's earlier name) is removed and its configuration t
 
 See [CHANGELOG.md](CHANGELOG.md) and the [releases](https://github.com/RahulP5/canhive-releases/releases).
 
-## Feedback
+## Report a problem
 
-Found a bug or missing a feature? Open an
-[issue](https://github.com/RahulP5/canhive-releases/issues). Please include the CANHIVE version
-(shown in the app under **Settings**), your Windows version and, for hardware problems, the
-interface and its driver version.
+Found a bug or missing a feature? [Open an issue](https://github.com/RahulP5/canhive-releases/issues/new/choose)
+and choose **Bug report** or **Feature request**. The form asks for the CANHIVE version (shown in
+the app under **Settings → About**, or by `canhive-cli --version`), your Windows version and, for
+hardware problems, the interface and its driver version.
+
+This repository is for downloads and issue reports only. CANHIVE's source code is not public, and
+this repository does not take pull requests or other contributions.
 
 ## Licence
 
