@@ -1,0 +1,212 @@
+CANHIVE END-USER LICENCE AGREEMENT
+Version 1.0, 2 October 2026
+
+Licensor: Rahul Pachpind, India ("Licensor", "we", "us").
+
+PLEASE READ THIS AGREEMENT CAREFULLY. BY INSTALLING, COPYING OR USING CANHIVE YOU
+AGREE TO THESE TERMS. IF YOU DO NOT AGREE, DO NOT INSTALL OR USE CANHIVE. IF YOU ACCEPT
+THESE TERMS ON BEHALF OF AN ORGANISATION, YOU CONFIRM THAT YOU MAY BIND IT, AND "YOU"
+MEANS THAT ORGANISATION.
+
+
+1. DEFINITIONS
+
+"Software" means CANHIVE in machine-readable form: the installer, the CANHIVE Hub
+service, the desktop application, canhive.dll, the SDK, the documentation, and any updates
+we provide.
+
+"SDK" means the parts of the Software intended for building your own programs: the header
+file canhive.h, the import libraries canhive.lib, the sample code in the "sdk" folder and
+shown in the application, and the Python package python-can-canhive.
+
+"Your Programs" means software you write that uses the Software through the SDK, through
+canhive.dll, or through the network protocols the Software provides.
+
+"Order" means any purchase confirmation, licence key, invoice or other written terms under
+which we provide the Software to you (for example a number of seats or a licence period).
+
+
+2. LICENCE GRANT
+
+2.1 Subject to this Agreement and to your Order, we grant you a non-exclusive,
+non-transferable, non-sublicensable licence to install and use the Software on computers
+that you own or control, for your internal business, development, test and educational
+purposes.
+
+2.2 If your Order limits the number of computers, users or the licence period, you may use
+the Software only within those limits. If an Order conflicts with this Agreement, the
+Order prevails.
+
+
+3. SDK AND YOUR PROGRAMS
+
+3.1 You may use the SDK to develop, build and test Your Programs.
+
+3.2 You may copy and modify the header file, the import libraries and the sample code, and
+include them, modified or unmodified, in source or object form, in Your Programs.
+
+3.3 You may distribute Your Programs, including the parts of the SDK they contain under
+section 3.2, to third parties, provided that:
+  (a) you do not distribute canhive.dll, the Hub, the desktop application, the installer or
+      any other part of the Software except as allowed in section 3.2 and 3.4; anyone who
+      runs Your Programs with CANHIVE must obtain CANHIVE under this Agreement;
+  (b) source-code copies of the sample code keep the copyright notice at their top;
+  (c) you do not use our name or trademarks to endorse or promote Your Programs without our
+      written permission; and
+  (d) your licence terms for Your Programs are no less protective of the SDK than this
+      Agreement.
+
+3.4 You may install the Python package python-can-canhive in any Python environment on
+computers on which the Software is licensed, and you may name it as a dependency of Your
+Programs.
+
+3.5 The network interfaces of the Software use openly documented protocols (SLCAN over
+TCP and socketcand). Programs that only speak these protocols over a network connection
+need no licence from us; this Agreement still governs the Software that serves them.
+
+
+4. RESTRICTIONS
+
+Except as expressly allowed in this Agreement or by applicable law that cannot be excluded
+by contract, you must not:
+  (a) copy, distribute, sell, rent, lease, lend or sublicense the Software, or make it
+      available to third parties as a hosted service;
+  (b) modify, translate or create derivative works of the Software (other than the SDK
+      parts allowed in section 3);
+  (c) reverse engineer, decompile or disassemble the Software;
+  (d) remove or change any copyright, trademark or other notices in the Software; or
+  (e) circumvent any licence key or other technical limit of the Software.
+
+
+5. OWNERSHIP
+
+The Software is licensed, not sold. We and our licensors keep all rights, title and
+interest in the Software, including all intellectual property rights. All rights not
+expressly granted to you are reserved.
+
+
+6. THIRD-PARTY COMPONENTS
+
+The Software contains open-source components that are licensed under their own terms,
+listed in the file THIRD-PARTY-NOTICES.txt installed with the Software. Those terms govern
+those components, and nothing in this Agreement limits your rights under them.
+
+
+7. OTHER MANUFACTURERS' HARDWARE, DRIVERS AND TOOLS
+
+7.1 The Software can work together with CAN interfaces and drivers of other manufacturers
+(for example PEAK-System, Kvaser and Vector) and with other tools (for example BUSMASTER
+and python-can). These are not part of the Software and are not supplied by us. You must
+obtain them, and any licence they require, from their manufacturers, and you must comply
+with their terms.
+
+7.2 All product names, logos and brands are the property of their respective owners. We
+use them only to identify compatible products. Their use implies no affiliation with or
+endorsement by their owners.
+
+
+8. INTENDED USE AND SAFETY
+
+8.1 The Software is a development and test tool for CAN and CAN FD communication. It
+simulates buses on a personal computer and can connect them to real CAN networks through
+supported interfaces.
+
+8.2 The Software is not designed, tested or certified for use in, or for controlling,
+vehicles in operation on public roads, medical devices, aircraft, nuclear facilities,
+safety-critical systems, or any other use where a failure or an incorrect frame could
+lead to death, personal injury, or damage to property or the environment ("High-Risk
+Use"). You must not use the Software for High-Risk Use.
+
+8.3 When you connect the Software to a real CAN network, frames sent by any program
+connected to the Software can reach that network. You are solely responsible for making
+sure that this cannot cause unsafe or unintended behaviour of the connected equipment,
+and for using suitable precautions (for example listen-only mode, isolated test setups,
+and the supervision of qualified personnel).
+
+
+9. UPDATES AND SUPPORT
+
+We may, but need not, provide updates, upgrades or support. Updates are part of the
+Software and governed by this Agreement unless they come with other terms. Support, if
+any, is described in your Order.
+
+
+10. DATA
+
+The Software runs on your computer. It does not send your CAN data or personal data to
+us. Its network servers listen on the local computer (127.0.0.1) only. During
+installation, Microsoft's WebView2 runtime may be downloaded from Microsoft if it is
+missing; Microsoft's terms apply to it.
+
+
+11. NO WARRANTY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE IS PROVIDED "AS IS" AND
+"AS AVAILABLE", WITH ALL FAULTS AND WITHOUT WARRANTY OF ANY KIND. WE DISCLAIM ALL
+WARRANTIES AND CONDITIONS, EXPRESS, IMPLIED OR STATUTORY, INCLUDING WARRANTIES OF
+MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY AND
+NON-INFRINGEMENT. WE DO NOT WARRANT THAT THE SOFTWARE WILL BE ERROR-FREE OR UNINTERRUPTED,
+THAT IT WILL DELIVER EVERY FRAME, OR THAT ITS SIMULATION MATCHES THE BEHAVIOUR OF ANY REAL
+CAN NETWORK OR DEVICE.
+
+
+12. LIMITATION OF LIABILITY
+
+12.1 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, NEITHER WE NOR OUR LICENSORS ARE
+LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY OR PUNITIVE
+DAMAGES, OR FOR ANY LOSS OF PROFITS, REVENUE, DATA, BUSINESS OR GOODWILL, ARISING OUT OF
+OR RELATED TO THIS AGREEMENT OR THE SOFTWARE, HOWEVER CAUSED, EVEN IF ADVISED OF THEIR
+POSSIBILITY.
+
+12.2 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, OUR TOTAL LIABILITY ARISING OUT
+OF OR RELATED TO THIS AGREEMENT OR THE SOFTWARE IS LIMITED TO THE AMOUNT YOU PAID FOR THE
+SOFTWARE IN THE TWELVE MONTHS BEFORE THE EVENT GIVING RISE TO THE CLAIM, OR INR 5,000 IF
+YOU PAID NOTHING.
+
+12.3 Nothing in this Agreement limits liability that cannot be limited under applicable
+law, such as liability for fraud or for death or personal injury caused by gross
+negligence or wilful misconduct.
+
+
+13. TERM AND TERMINATION
+
+13.1 This Agreement applies until it is terminated, or until the licence period in your
+Order ends.
+
+13.2 Your licence ends automatically if you breach this Agreement. You may end it at any
+time by uninstalling and deleting the Software.
+
+13.3 When the licence ends, you must stop using the Software and delete all copies.
+Sections 4 to 8 and 10 to 15, and your right to keep distributing Your Programs that you
+distributed in line with section 3 before the end of the licence, survive termination.
+
+
+14. EXPORT
+
+You must comply with all export control and sanctions laws that apply to your use and
+export of the Software.
+
+
+15. GENERAL
+
+15.1 This Agreement is governed by the laws of India, without regard to its conflict of
+laws rules. The courts of competent jurisdiction in India have exclusive jurisdiction
+over any dispute arising out of or related to this Agreement, except that we may seek
+injunctive relief in any court of competent jurisdiction.
+
+15.2 This Agreement, together with your Order, is the entire agreement between you and us
+about the Software and replaces all earlier agreements and understandings about it.
+
+15.3 If any provision is held invalid or unenforceable, it is limited to the minimum
+extent necessary, and the rest of the Agreement remains in effect.
+
+15.4 A failure or delay to enforce a provision is not a waiver of it.
+
+15.5 You may not assign or transfer this Agreement or your licence without our prior
+written consent. We may assign this Agreement to a successor of our business.
+
+15.6 Where this Agreement is provided in a language other than English, the English
+version prevails.
+
+
+Copyright (c) 2026 Rahul Pachpind. All rights reserved.
